@@ -6,7 +6,7 @@ const VoxelLeaf = () => {
     <Image
       width={100} // set maximum width to 300px
       height={50} // set maximum height to 200px
-      src={'/leaf-icon 512x512.png'}
+      src={'/leaf-icon512x512.png'}
       alt={'leaf-icon'}
     />
   </Center>
