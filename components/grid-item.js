@@ -36,10 +36,13 @@ export const WorkGridItem = ({
       cursor="pointer"
     >
       <Image
+        width={300} // set maximum width to 300px
+        height={200} // set maximum height to 200px
         src={thumbnail}
+        layout="responsive"
         alt={title}
         className="grid-item-thumbnail"
-        placeholder="blur"
+        // placeholder="blur"
       />
       <LinkOverlay as="div" href={`/${category}/${id}`}>
         <Text mt={2} fontSize={20}>
