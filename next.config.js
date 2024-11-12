@@ -1,5 +1,4 @@
 module.exports = {
-  unoptimized: true,
   reactStrictMode: true,
   swcMinify: true,
   images: {
@@ -12,4 +11,5 @@ module.exports = {
       },
     ],
   },
+
 }
